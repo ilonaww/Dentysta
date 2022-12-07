@@ -1,0 +1,8 @@
+@mixin reset {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@mixin rwd($breakpoints){
+    @content;
+}

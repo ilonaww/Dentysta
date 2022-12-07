@@ -1,5 +1,5 @@
 //kolory
-$white: #FFFFFF;
+$white: #ffffff;
 $black: #000000;
 $blue: #0423d6;
 $blue-light: #1a62fc;
@@ -13,4 +13,8 @@ $font-size-4: $font-primary-size * 1.25;
 $font-size-5: $font-primary-size * 1.5;
 $font-size-6: $font-primary-size * 1.75;
 
-
+//breakpointy związane z responsywnością
+$breakpoints: (
+  "small-up": "max-width:400px",
+  "medium-up": "max-width:800px",
+);
