@@ -8,10 +8,11 @@ $dark-gray: #181818;
 //tekst
 $font-primary-size: 1rem;
 $font-size-1: $font-primary-size * 0.75;
-$font-size-2: $font-primary-size * 1;
-$font-size-3: $font-primary-size * 1.25;
-$font-size-4: $font-primary-size * 1.5;
-$font-size-5: $font-primary-size * 1.75;
+$font-size-2: $font-primary-size * 0.875;
+$font-size-3: $font-primary-size * 1;
+$font-size-4: $font-primary-size * 1.25;
+$font-size-5: $font-primary-size * 1.5;
+$font-size-6: $font-primary-size * 1.75;
 
 //breakpointy związane z responsywnością
 $breakpoints: (
