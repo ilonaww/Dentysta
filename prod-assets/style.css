@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #1a62fc;
   font-family: "Montserrat", sans-serif;
   color: #181818;
   font-size: 1rem;
@@ -29,4 +29,11 @@ h1, h2, h3, h4, h5 {
 
 p {
   font-size: 0.875rem;
+}
+
+.o-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: red;
 }

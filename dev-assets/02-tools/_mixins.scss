@@ -8,6 +8,19 @@
     padding: 0;
 }
 
-@mixin rwd($breakpoints){
-    @content;
+@mixin margin-auto  {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin medium-up {
+    @media (min-width: #{$bp-medium}) {
+    @content; 
+} 
+}
+
+@mixin small-up {
+    @media (max-width: #{$bp-large}) {
+        
+    }
 }
