@@ -37,3 +37,95 @@ p {
   width: 100%;
   background-color: red;
 }
+
+.o-col {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 800px) {
+  .o-col--md25 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+@media (min-width: 800px) {
+  .o-col--md33 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+@media (min-width: 800px) {
+  .o-col--md50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .o-col--lg25 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+@media (max-width: 1200px) {
+  .o-col--lg33 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+@media (max-width: 1200px) {
+  .o-col--lg50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .o-col--lg75 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+.o-row {
+  flex-direction: column;
+}
+
+.c-btn {
+  font-size: 0.875rem;
+  border-radius: 5px;
+  align-items: center;
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  transition: 0.2s all;
+}
+.c-btn:hover {
+  text-decoration: none;
+}
+.c-btn--primary {
+  color: #ffffff;
+  background-color: #1a62fc;
+}
+.c-btn--primary:hover {
+  background-color: #0349e0;
+  color: #ffffff;
+}
+.c-btn--white {
+  color: #1a62fc;
+  background-color: #ffffff;
+}
+.c-btn--white:hover {
+  background-color: #e6e6e6;
+}
+.c-btn--blue {
+  color: #ffffff;
+  background-color: #324194;
+}
+.c-btn--blue:hover {
+  color: #ffffff;
+  background-color: #3f52ba;
+}

@@ -19,8 +19,8 @@
 } 
 }
 
-@mixin small-up {
+@mixin large-up {
     @media (max-width: #{$bp-large}) {
-        
+    @content;
     }
 }

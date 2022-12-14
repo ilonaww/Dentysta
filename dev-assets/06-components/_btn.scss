@@ -1,0 +1,48 @@
+.c-btn {
+    font-size: $font-size-2;
+    border-radius: $border-radius;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    width: $grid-base * 20;
+    height: $grid-base * 4;
+    font-weight: 700;
+    padding: 0.5rem 1rem; 
+    transition: 0.2s all;
+
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &--primary {
+        color: $white;
+        background-color: $blue-light;
+
+        &:hover {
+            background-color: darken($blue-light, 10%);
+            color: $white;
+        }
+    }
+
+    &--white {
+        color: $blue-light;
+        background-color: $white;
+
+        &:hover {
+            $color: $blue-light;
+            background-color: darken($white, 10%);
+        }
+    }
+
+    &--blue {
+        color: $white;
+        background-color: $blue-dark;
+
+        &:hover {
+            color: $white;
+            background-color: lighten($blue-dark, 10%);
+        }
+    }
+}
