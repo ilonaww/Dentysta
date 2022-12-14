@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #1a62fc;
+  background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
   color: #181818;
   font-size: 1rem;
@@ -61,25 +61,25 @@ p {
     max-width: 50%;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .o-col--lg25 {
     flex: 0 0 25%;
     max-width: 25%;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .o-col--lg33 {
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .o-col--lg50 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .o-col--lg75 {
     flex: 0 0 75%;
     max-width: 75%;
@@ -128,4 +128,43 @@ p {
 .c-btn--blue:hover {
   color: #ffffff;
   background-color: #3f52ba;
+}
+
+.c-heading {
+  color: rgb(57, 57, 255);
+  margin-bottom: 5px;
+}
+.c-heading--level1 {
+  font-size: 1.5rem;
+}
+@media (min-width: 1200px) {
+  .c-heading--level1 {
+    font-size: 2.5rem;
+  }
+}
+.c-heading--level2 {
+  font-size: 1.25rem;
+}
+@media (min-width: 1200px) {
+  .c-heading--level2 {
+    font-size: 1.5rem;
+  }
+}
+.c-heading--level3 {
+  font-size: 1.25rem;
+}
+.c-heading--level4 {
+  font-size: 1.25rem;
+}
+.c-heading--level5 {
+  font-size: 0.875rem;
+}
+.c-heading--upper {
+  text-transform: uppercase;
+}
+.c-heading--bold {
+  font-weight: 700;
+}
+.c-heading--white {
+  color: #ffffff;
 }
