@@ -1,0 +1,45 @@
+.c-nav {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    transform: translateX(250px);
+    transition: transform .3s .1s ease-in-out;
+
+
+
+    &__item {
+        color: $white;
+        display: block;
+        font-size: $font-size-5;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-top: $grid-base * 1.5;
+        padding-bottom: $grid-base * 1.5;
+        padding-left: $grid-base * 1.5;
+        transition: 0.2s all;
+        
+        &:hover {
+            color: $blue-light;
+            font-size: $font-size-5 * 1.1;
+        }
+    }
+
+    @include medium-up {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: auto;
+        height: auto;
+        position: static;
+        transform: translateX(0);
+    }
+}
+
+.c-nav-active {
+    transform: translateX(0px);
+}
+
+
+

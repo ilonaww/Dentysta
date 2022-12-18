@@ -1,0 +1,37 @@
+.t-site-header {
+  background-color: $blue-dark;
+  height: 30rem;
+
+  &__top {
+    height: 6rem;
+    position: relative;
+  }
+  &__img-box {
+    position: absolute;
+    display: none;
+  }
+
+  @include medium-up {
+    &__img-box {
+      height: 6rem;
+      width: auto;
+      display: flex;
+      position: static;
+      justify-content: center;
+
+      img {
+        flex-basis: content;
+      }
+    }
+  
+
+  &__divider {
+    height:  $grid-base * 0.1;
+    width: 90%;
+    background-color: $white;
+    opacity: 0.7;
+    @include margin-auto;
+
+  }
+}
+}
