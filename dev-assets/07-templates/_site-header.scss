@@ -3,7 +3,6 @@
   height: 30rem;
 
   &__top {
-    height: 6rem;
     position: relative;
   }
   &__img-box {
@@ -33,5 +32,10 @@
     @include margin-auto;
 
   }
+}
+
+&__hero {
+  text-align: center;
+  margin-top: $grid-base * 6;
 }
 }

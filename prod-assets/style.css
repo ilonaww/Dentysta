@@ -194,13 +194,12 @@ button {
 }
 
 .c-nav {
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-  position: absolute;
-  right: 0;
-  transform: translateX(250px);
-  transition: transform 0.3s 0.1s ease-in-out;
+  display: none;
+  opacity: 0;
+  transform: translateX(0px);
+  transition: opacity 0.3s 0.1s ease-in-out;
+  height: 0;
+  overflow: hidden;
 }
 .c-nav__item {
   color: #ffffff;
@@ -230,7 +229,14 @@ button {
 }
 
 .c-nav-active {
-  transform: translateX(0px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 250px;
+  transform: translateX(300px);
+  opacity: 1;
+  height: auto;
+  transition: opacity 0.3s 0.1s ease-in-out;
 }
 
 .c-toggle_menu {
@@ -277,7 +283,7 @@ button {
   top: 10px;
 }
 .c-toggle_menu__hamburger-active {
-  transform: translateX(-250px);
+  transform: translateX(-150px);
 }
 .c-toggle_menu__hamburger-active .c-toggle_menu__hamburger__box__inner {
   background-color: transparent;
@@ -299,7 +305,6 @@ button {
   height: 30rem;
 }
 .t-site-header__top {
-  height: 6rem;
   position: relative;
 }
 .t-site-header__img-box {
@@ -325,4 +330,8 @@ button {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.t-site-header__hero {
+  text-align: center;
+  margin-top: 60px;
 }
