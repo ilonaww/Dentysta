@@ -225,6 +225,7 @@ button {
     height: auto;
     position: static;
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
