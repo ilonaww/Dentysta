@@ -6,7 +6,9 @@ border: none;
 .c-btn {
     font-size: $font-size-5;
     border-radius: $border-radius;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     border: none;
     text-transform: uppercase;
@@ -49,5 +51,10 @@ border: none;
             color: $white;
             background-color: lighten($blue-dark, 10%);
         }
+    }
+
+    &--green {
+        color: $white;
+        background-color: $green;
     }
 }

@@ -1,6 +1,11 @@
 .t-site-header {
   background-color: $blue-dark;
-  height: 30rem;
+  height: auto;
+
+  @include medium-up {
+    height: 32rem;
+    clip-path: ellipse(68% 350px at 50% 28%);
+  }
 
   &__top {
     position: relative;
@@ -22,20 +27,42 @@
         flex-basis: content;
       }
     }
-  
+  }
 
   &__divider {
-    height:  $grid-base * 0.1;
+    height: $grid-base * 0.1;
     width: 90%;
     background-color: $white;
     opacity: 0.7;
     @include margin-auto;
-
   }
-}
 
-&__hero {
-  text-align: center;
-  margin-top: $grid-base * 6;
-}
+  &__hero {
+    text-align: center;
+    margin-top: $grid-base * 6;
+
+    @include medium-up {
+      max-width: $grid-base * 80;
+
+      @include margin-auto;
+    }
+
+    &__text {
+      color: $white;
+      padding-top: $grid-base * 2;
+      font-size: $font-size-3;
+      margin-bottom: $grid-base * 3;
+      padding: 0 $grid-base * 1.5;
+    }
+
+    &__button {
+      margin-bottom: $grid-base * 4;
+      margin-left: $grid-base * 1.5;
+      margin-right: $grid-base * 1.5;
+
+      @include medium-up {
+        margin: $grid-base * 3.5 $grid-base * 2;
+      }
+    }
+  }
 }

@@ -117,7 +117,9 @@ button {
 .c-btn {
   font-size: 0.875rem;
   border-radius: 5px;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
   border: none;
   text-transform: uppercase;
@@ -152,6 +154,10 @@ button {
 .c-btn--blue:hover {
   color: #ffffff;
   background-color: #3f52ba;
+}
+.c-btn--green {
+  color: #ffffff;
+  background-color: rgba(0, 170, 14, 0.986);
 }
 
 .c-heading {
@@ -234,7 +240,7 @@ button {
   flex-direction: column;
   position: relative;
   width: 250px;
-  transform: translateX(300px);
+  transform: translateX(75%);
   opacity: 1;
   height: auto;
   transition: opacity 0.3s 0.1s ease-in-out;
@@ -303,7 +309,13 @@ button {
 
 .t-site-header {
   background-color: #324194;
-  height: 30rem;
+  height: auto;
+}
+@media (min-width: 800px) {
+  .t-site-header {
+    height: 32rem;
+    clip-path: ellipse(68% 350px at 50% 28%);
+  }
 }
 .t-site-header__top {
   position: relative;
@@ -323,16 +335,40 @@ button {
   .t-site-header__img-box img {
     flex-basis: content;
   }
-  .t-site-header__divider {
-    height: 1px;
-    width: 90%;
-    background-color: #ffffff;
-    opacity: 0.7;
-    margin-left: auto;
-    margin-right: auto;
-  }
+}
+.t-site-header__divider {
+  height: 1px;
+  width: 90%;
+  background-color: #ffffff;
+  opacity: 0.7;
+  margin-left: auto;
+  margin-right: auto;
 }
 .t-site-header__hero {
   text-align: center;
   margin-top: 60px;
+}
+@media (min-width: 800px) {
+  .t-site-header__hero {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.t-site-header__hero__text {
+  color: #ffffff;
+  padding-top: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+.t-site-header__hero__button {
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media (min-width: 800px) {
+  .t-site-header__hero__button {
+    margin: 35px 20px;
+  }
 }
