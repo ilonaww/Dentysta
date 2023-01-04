@@ -1,5 +1,12 @@
 .o-container {
     @include margin-auto;
     width: 100%;
-    background-color: red;
+
+    @include medium-up {
+        max-width: 740px;
+    }
+
+    @include large-up {
+        max-width: 1140px;
+    }
 }

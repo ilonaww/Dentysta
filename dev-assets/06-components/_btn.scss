@@ -56,5 +56,10 @@ border: none;
     &--green {
         color: $white;
         background-color: $green;
+
+        &:hover {
+            color: $white;
+            background-color: $dark-green
+        }
     }
 }
