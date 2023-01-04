@@ -1,6 +1,7 @@
 .c-heading {
 
     color: $blue-heading;
+    margin-top: calc($grid-base / 2);
     margin-bottom: calc($grid-base / 2);
 
     &--level1 {

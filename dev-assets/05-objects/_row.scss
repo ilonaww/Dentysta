@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: -$gutter;
-  margin-right: -$gutter; // odjęcie tych 15px od marginesów
+  // margin-left: -$gutter;
+  // margin-right: -$gutter; // odjęcie tych 15px od marginesów
 
   @include medium-up {
     flex-direction: row;

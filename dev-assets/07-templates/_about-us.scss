@@ -1,0 +1,21 @@
+.t-about-us {
+  margin-top: $grid-base * 6;
+
+  &__left {
+    display: flex;
+
+    &__text > h2 {
+      margin-bottom: $grid-base * 2.5;
+    }
+    &__text > p {
+      font-size: $font-size-4;
+    }
+  }
+
+  &__right {
+    &__photo {
+      width: 70%;
+      @include margin-auto;
+    }
+  }
+}
