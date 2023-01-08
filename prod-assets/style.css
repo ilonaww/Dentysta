@@ -183,6 +183,7 @@ button {
 @media (min-width: 1200px) {
   .c-heading--level1 {
     font-size: 2.5rem;
+    letter-spacing: 1.5px;
   }
 }
 .c-heading--level2 {
@@ -191,6 +192,7 @@ button {
 @media (min-width: 1200px) {
   .c-heading--level2 {
     font-size: 1.5rem;
+    letter-spacing: 1.5px;
   }
 }
 .c-heading--level3 {
@@ -320,6 +322,10 @@ button {
   }
 }
 
+.c-text--center {
+  text-align: center;
+}
+
 .t-site-header {
   background-color: #324194;
   height: auto;
@@ -370,7 +376,7 @@ button {
 }
 .t-site-header__hero__text {
   color: #ffffff;
-  padding-top: 20px;
+  margin-top: 25px;
   font-size: 1.25rem;
   margin-bottom: 30px;
   padding: 0 15px;
@@ -402,4 +408,29 @@ button {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.t-advantages {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.t-advantages__items {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.t-advantages__items__item {
+  margin-top: 25px;
+}
+.t-advantages__items__item__icon {
+  width: 80px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.t-advantages__items__item__text {
+  text-align: center;
+}
+.t-advantages__items__item__text__title {
+  font-size: 1rem;
 }

@@ -3,12 +3,14 @@
     color: $blue-heading;
     margin-top: calc($grid-base / 2);
     margin-bottom: calc($grid-base / 2);
+    
 
     &--level1 {
         font-size: $font-size-2;
 
         @include large-up {
             font-size: $font-size-1;
+            letter-spacing: 1.5px;
         }
     }
 
@@ -17,6 +19,7 @@
 
         @include large-up {
             font-size: $font-size-2;
+            letter-spacing: 1.5px;
         }
     }
 
