@@ -33,6 +33,10 @@ p {
   line-height: 1.6;
 }
 
+a {
+  text-decoration: none;
+}
+
 .o-container {
   margin-left: auto;
   margin-right: auto;
@@ -325,6 +329,12 @@ button {
 .c-text--center {
   text-align: center;
 }
+.c-text--justify {
+  text-align: justify;
+}
+.c-text--blue {
+  color: #324194;
+}
 
 .t-site-header {
   background-color: #324194;
@@ -433,4 +443,37 @@ button {
 }
 .t-advantages__items__item__text__title {
   font-size: 1rem;
+}
+
+.t-site-footer {
+  border-top: 2px solid #324194;
+  padding: 15px;
+}
+.t-site-footer__item {
+  width: 100%;
+  padding-left: 20px;
+}
+.t-site-footer__item__title {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.t-site-footer__item__logo {
+  width: 100px;
+  height: auto;
+}
+.t-site-footer__item__text {
+  padding: 0 15px;
+}
+.t-site-footer__item__links {
+  display: flex;
+  flex-direction: column;
+}
+.t-site-footer__item__links__link {
+  padding-bottom: 15px;
+  color: #181818;
+  font-size: 0.875rem;
+}
+.t-site-footer__item__addres {
+  padding-bottom: 15px;
+  margin: 0;
 }

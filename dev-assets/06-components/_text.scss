@@ -3,4 +3,12 @@
     &--center {
         text-align: center;
     }
+
+    &--justify {
+        text-align: justify;
+    }
+
+    &--blue {
+        color: $blue-dark;
+    }
 } 

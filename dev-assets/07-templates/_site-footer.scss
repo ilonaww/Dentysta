@@ -1,0 +1,40 @@
+.t-site-footer {
+  border-top: 2px solid $blue-dark;
+  padding: $grid-base * 1.5;
+
+  &__item {
+    width: 100%;
+    padding-left: $grid-base * 2;
+    
+    &__title {
+        padding-top: $grid-base * 7;
+        padding-bottom: $grid-base * 2;
+    }
+
+    &__logo {
+      width: $grid-base * 10;
+      height: auto;
+    }
+
+    &__text {
+        padding: 0 $grid-base * 1.5;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+
+        &__link {
+            padding-bottom: $grid-base * 1.5;
+            color: $dark-gray;
+            font-size: $font-size-5;
+        }
+    }
+
+    &__addres {
+        padding-bottom: $grid-base * 1.5;
+
+        @include reset;
+    }
+  }
+}
