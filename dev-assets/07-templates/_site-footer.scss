@@ -7,13 +7,19 @@
     padding-left: $grid-base * 2;
     
     &__title {
-        padding-top: $grid-base * 7;
+        padding-top: $grid-base * 2;
         padding-bottom: $grid-base * 2;
+
+        @include medium-up {
+          padding-top: $grid-base * 7;
+        }
     }
 
     &__logo {
       width: $grid-base * 10;
       height: auto;
+      
+      @include margin-auto;
     }
 
     &__text {

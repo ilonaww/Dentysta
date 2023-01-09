@@ -454,12 +454,19 @@ button {
   padding-left: 20px;
 }
 .t-site-footer__item__title {
-  padding-top: 70px;
+  padding-top: 20px;
   padding-bottom: 20px;
+}
+@media (min-width: 800px) {
+  .t-site-footer__item__title {
+    padding-top: 70px;
+  }
 }
 .t-site-footer__item__logo {
   width: 100px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .t-site-footer__item__text {
   padding: 0 15px;
