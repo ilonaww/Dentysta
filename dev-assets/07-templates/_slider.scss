@@ -9,9 +9,18 @@
     &__item {
       background-color: $white;
       margin: $grid-base;
-      padding: $grid-base $grid-base*0.5;
       max-width: $grid-base * 50;
+      border-radius: $border-radius;
+    
+
+    &__text {
+      padding: $grid-base;
     }
+
+      &__img img {
+        border-radius: $border-radius;
+      }
+  }
   }
 }
 

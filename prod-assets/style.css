@@ -504,8 +504,14 @@ button {
 .t-slider__items__item {
   background-color: #ffffff;
   margin: 10px;
-  padding: 10px 5px;
   max-width: 500px;
+  border-radius: 5px;
+}
+.t-slider__items__item__text {
+  padding: 10px;
+}
+.t-slider__items__item__img img {
+  border-radius: 5px;
 }
 
 .glide__arrow {
