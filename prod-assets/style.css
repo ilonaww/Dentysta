@@ -509,9 +509,16 @@ button {
 }
 .t-slider__items__item__text {
   padding: 10px;
+  text-align: center;
 }
 .t-slider__items__item__img img {
   border-radius: 5px;
+}
+.t-slider__items__item__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .glide__arrow {

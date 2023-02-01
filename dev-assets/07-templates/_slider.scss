@@ -15,10 +15,18 @@
 
     &__text {
       padding: $grid-base;
+      text-align: center;
     }
 
       &__img img {
         border-radius: $border-radius;
+      }
+
+      &__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: $grid-base * 2;
       }
   }
   }
